@@ -12,4 +12,4 @@ import { ZlwNavComponent } from './zlw.nav.component';
         RouterModule
     ]
 })
-export class navRoutingModule { }
+export class NavRoutingModule { }

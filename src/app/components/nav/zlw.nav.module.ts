@@ -1,18 +1,20 @@
 import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { ZlwNavComponent } from './zlw.nav.component';
-import { navRoutingModule } from './zlw.nav.route.module';
+import { NavRoutingModule } from './zlw.nav.route.module';
+
+
+
 
 @NgModule({
     imports: [
-        RouterModule.forChild([
-            { path: '', component: ZlwNavComponent },
-            navRoutingModule
-        ])
+        CommonModule,
+        NavRoutingModule
     ],
-    exports: [
-        RouterModule,
+    declarations: [
         ZlwNavComponent
     ]
 })
-export class ZlwNavModule { }
+export class ZlwNavModule {
+}

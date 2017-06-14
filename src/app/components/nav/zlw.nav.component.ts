@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  templateUrl: './zlw.nav.component.html',
-  styleUrls: ['./zlw.nav.component.scss']
+  templateUrl: './zlw.nav.component.html'
 })
 export class ZlwNavComponent {
-  title = 'app works! ';
+  title = 'app works!sadgagdagdasdgasdgasdg ';
   constructor() {
     alert(1)
   }
