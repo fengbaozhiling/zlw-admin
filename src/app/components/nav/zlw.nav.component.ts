@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
 export class ZlwNavComponent {
   title = 'app works!sadgagdagdasdgasdgasdg ';
   constructor() {
-    alert(1)
+    
   }
 
 }
